@@ -17,6 +17,7 @@ import android.view.MotionEvent
 import android.view.View
 import android.view.animation.DecelerateInterpolator
 import androidx.core.content.res.ResourcesCompat
+import com.example.degreepicker.R
 import java.lang.Math.*
 import kotlin.math.abs
 import kotlin.math.atan2

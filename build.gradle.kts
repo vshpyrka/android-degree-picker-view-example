@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace = "com.example.views"
+    namespace = "com.example.degreepicker"
     compileSdk = sdk.versions.compileSdk.get().toInt()
 
     defaultConfig {
