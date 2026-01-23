@@ -9,7 +9,6 @@ android {
 
     defaultConfig {
         minSdk = sdk.versions.minSdk.get().toInt()
-        targetSdk = sdk.versions.targetSdk.get().toInt()
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles("consumer-rules.pro")
@@ -23,9 +22,6 @@ android {
                 "proguard-rules.pro"
             )
         }
-    }
-    kotlinOptions {
-        jvmTarget = "17"
     }
 
     compileOptions {
